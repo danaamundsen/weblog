@@ -4,8 +4,8 @@
 @import "{{ site.theme }}";
 
 body{
-  background: #333;
-  color: #fff;
+  background: #2A2D38;
+  color: #E9EAEB;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -20,6 +20,7 @@ a {
 a:hover, a:active, a:focus {
   font-weight: inherit;
   color: #fff;
+  text-decoration: none;
 }
 
 /* hr{

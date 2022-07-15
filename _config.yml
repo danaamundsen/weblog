@@ -1,4 +1,11 @@
-theme: jekyll-theme-minimal
-title: web log
+title: web log  
+# logo: /assets/img/logo.png
 description: thoughts, essays, journal entries, love letters
+paginate: 5
+paginate_path: "/webblog/page:num/"
 show_downloads: false
+# google_analytics:
+theme: jekyll-theme-minimal
+plugins: 
+  - jekyll-paginate
+  - jekyll-feed

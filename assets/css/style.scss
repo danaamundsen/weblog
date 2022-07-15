@@ -13,8 +13,8 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #9933ff;
-	font-family: lucida console, monospace;
+  color: #9933ff;
+  font-family: lucida console, monospace;
 }
 
 a {
@@ -29,10 +29,11 @@ a:hover, a:active, a:focus {
 }
 
 p.title a{
-  color: 9933ff;
+  color: #9933ff;
   font-size: 2em;
   font-weight: strong;
   text-decoration: none;
+  font-family: lucida console, monospace;
 }
 
 p.title a:hover, a:active, a:focus {

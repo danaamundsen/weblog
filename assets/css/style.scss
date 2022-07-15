@@ -24,12 +24,13 @@ a {
 
 a:hover, a:active, a:focus {
   font-weight: inherit;
-  color: #fff;
+  color: #9933ff;
   text-decoration: none;
 }
 
 p.title a{
-  color: pink;
+  color: 9933ff;
+  font-size: 2em;
   font-weight: strong;
   text-decoration: none;
 }
@@ -40,14 +41,11 @@ p.title a:hover, a:active, a:focus {
   text-decoration: underline;
 }
 
-/* hr{
-  border-bottom: 1px solid #eee;
-  background: #fff;
-  height: 5px;
-  width: 50%;
+hr {
+  border-top: 1px solid black;
+  width: 200px;
   margin: auto;
-  margin-bottom: 5px;
-} */
+}
 
 .wrapper {
   width:600px;

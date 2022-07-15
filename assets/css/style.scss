@@ -17,8 +17,8 @@ hr{
 }
 
 .wrapper {
-  width:500px;
-  margin:0;
+  width:600px;
+  margin:auto;
 }
 
 header {
@@ -53,75 +53,6 @@ a:hover, a:active, a:focus {
   color: #000;
   background-color: #FFEF92;
   text-decoration: underline;
-}
-
-a.tag {
- background-color: #FFEF92;
- text-decoration: none;
-  padding: 2px;
-}
-
-a.tag:hover, a.tag:active, a.tag:focus {
-  background-color: #fff;
-}
- 
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-}
-
-a.tag_image_link:hover {
-  background: none;
-}  
-
-.tag_post {
-  width: 150px;
-  height: 150px;
-  margin:0px;
-  padding: 5px;
-  position: relative;
-}
-
-.tag_image {
-  opacity: 1;
-  display: inline-block;
-  border-radius: 10px;
-  object-fit: cover;
-  object-position: 50% 50%;
-  width: 150px;
-  height: 150px;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.tag_hover {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
-}
-
-.tag_post:hover .tag_image {
-  opacity: .3;
-}
-
-.tag_post:hover .tag_hover {
-  opacity: .5;
-}
-
-.tag_desc {
-  background-color: #FFEF92;
-  color: #000;
-  padding: 2px;
-  border-radius: 5px;
-  text-align: center;
-  height: 150px;
-  width: 150px;
 }
 
 

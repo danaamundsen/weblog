@@ -64,6 +64,27 @@ section {
   padding-bottom:50px;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9933ff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
 
 @media print, screen and (max-width: 960px) {
 

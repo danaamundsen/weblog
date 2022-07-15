@@ -6,23 +6,22 @@ layout: default
   {% for post in paginator.posts %}
     <article class="post">
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-
-      
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <small><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">permalink</a> | date: {{ post.date | date: "%D" }} | 
-  {% if post %}
+<p><small>date: {{ post.date | date: "%D" }}
+{% if post %}
     {% assign tags = post.tags %}
   {% else %}
     {% assign tags = page.tags %}
   {% endif %}
   {% for tag in tags %}
-  tags: <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
+  <br>tags: <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-      | <a href="{{ site.baseurl }}{{ post.url }}#comments">comments</a></small>
+  {% endfor %}</small></p>
+      
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}#comments">comments</a></small>
     </article>
   <hr></hr>
   {% endfor %}

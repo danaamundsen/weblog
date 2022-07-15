@@ -23,11 +23,11 @@ layout: default
   <a href="http://www.tumblr.com/share/link?url={{ site.url }}{{ page.url }}&name={{ page.title  }}" title "share on tumblr">share on tumblr</a></small>
 <p align="right">
     {% if page.previous.url %}
-    <a href="{{ page.previous.url }}">previous</a> / 
+    <a href="{{ page.previous.url }}">{{page.previous.title}}</a> - 
     {% endif %}
 
     {% if page.next.url %}
-    <a href="{{ page.next.url }}">next</a>
+    <a href="{{ page.next.url }}">{{page.next.title}}</a>
     {% endif %}
 </p>
 
@@ -73,10 +73,8 @@ layout: default
 <div class="commentbox"></div>
 <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
 <script>commentBox('5639873264353280-proj', {
-      backgroundColor: '#2A2D38',
-      textColor: '#E9EAEB'
+      backgroundColor: '#000',
+      textColor: '#ddd'
  })</script>
 
 {% endif %}
-
-<!--- {{page.previous.title}} {{page.next.title}}--->

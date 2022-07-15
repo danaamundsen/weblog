@@ -9,14 +9,15 @@ body{
   color: #fff;
 }
 
-hr{
+
+/* hr{
   border-bottom: 1px solid #eee;
   background: #fff;
   height: 5px;
   width: 50%;
   margin: auto;
   margin-bottom: 5px;
-}
+} */
 
 .wrapper {
   width:600px;
@@ -36,6 +37,7 @@ section {
   padding-bottom:50px;
 }
 
+/*
 h1 {
   font-size: 12px;
 }
@@ -55,7 +57,7 @@ a:hover, a:active, a:focus {
   color: #000;
   background-color: #FFEF92;
   text-decoration: underline;
-}
+} */
 
 
 @media print, screen and (max-width: 960px) {

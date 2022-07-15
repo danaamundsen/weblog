@@ -4,8 +4,8 @@
 @import "{{ site.theme }}";
 
 body{
-  background: #2A2D38;
-  color: #E9EAEB;
+  background: #000;
+  color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -24,9 +24,9 @@ a:hover, a:active, a:focus {
 }
 
 p.title a{
-  color: #524B64;
-  font-weight: stronger;
-  text-decoration: underline;
+  color: pink;
+  font-weight: strong;
+  text-decoration: none;
 }
 
 p.title a:hover, a:active, a:focus {
@@ -53,7 +53,6 @@ header {
   width:inherit;
   float:none;
   position:relative;
-  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 section {

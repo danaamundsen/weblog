@@ -23,6 +23,18 @@ a:hover, a:active, a:focus {
   text-decoration: none;
 }
 
+p.title a{
+  color: #524B64;
+  font-weight: stronger;
+  text-decoration: underline;
+}
+
+p.title a:hover, a:active, a:focus {
+  font-weight: inherit;
+  color: #fff;
+  text-decoration: underline;
+}
+
 /* hr{
   border-bottom: 1px solid #eee;
   background: #fff;

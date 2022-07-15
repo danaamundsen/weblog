@@ -1,0 +1,183 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body{
+  font-size: 12px;
+}
+
+hr{
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  height: 5px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.wrapper {
+  width:500px;
+  margin:0;
+}
+
+header {
+  width:inherit;
+  float:none;
+  position:relative;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
+
+section {
+  width:inherit;
+  float:none;
+  padding-bottom:50px;
+}
+
+h1 {
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: strong;
+}
+
+a {
+  color:#000;
+  text-decoration: underline;
+}
+
+a:hover, a:active, a:focus {
+  font-weight: inherit;
+  color: #000;
+  background-color: #FFEF92;
+  text-decoration: underline;
+}
+
+a.tag {
+ background-color: #FFEF92;
+ text-decoration: none;
+  padding: 2px;
+}
+
+a.tag:hover, a.tag:active, a.tag:focus {
+  background-color: #fff;
+}
+ 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+a.tag_image_link:hover {
+  background: none;
+}  
+
+.tag_post {
+  width: 150px;
+  height: 150px;
+  margin:0px;
+  padding: 5px;
+  position: relative;
+}
+
+.tag_image {
+  opacity: 1;
+  display: inline-block;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 150px;
+  height: 150px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.tag_hover {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.tag_post:hover .tag_image {
+  opacity: .3;
+}
+
+.tag_post:hover .tag_hover {
+  opacity: .5;
+}
+
+.tag_desc {
+  background-color: #FFEF92;
+  color: #000;
+  padding: 2px;
+  border-radius: 5px;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+}
+
+
+@media print, screen and (max-width: 960px) {
+
+  div.wrapper {
+    width:auto;
+    margin:0;
+  }
+
+  header, section, footer {
+    float:none;
+    position:static;
+    width:auto;
+  }
+
+  header {
+    padding-right:320px;
+  }
+
+  section {
+    padding:20px 0;
+    margin:0 0 20px;
+  }
+
+  header a small {
+    display:inline;
+  }
+
+  header ul {
+    position:absolute;
+    right:50px;
+    top:52px;
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  body {
+    word-wrap:break-word;
+  }
+
+  header {
+    padding:0;
+  }
+
+  header ul, header p.view {
+    position:static;
+  }
+
+  pre, code {
+    word-wrap:normal;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  body {
+    padding:15px;
+  }
+}

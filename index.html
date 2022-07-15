@@ -19,10 +19,10 @@ layout: default
     {% assign tags = page.tags %}
   {% endif %}
   {% for tag in tags %}
-  tags: <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}">{{ tag }}</a></small>
+  tags: <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
-      | <a href="{{ site.baseurl }}{{ post.url }}#comments">comments</a>
+      | <a href="{{ site.baseurl }}{{ post.url }}#comments">comments</a></small>
     </article>
   <hr></hr>
   {% endfor %}

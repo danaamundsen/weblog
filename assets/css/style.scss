@@ -3,10 +3,12 @@
 
 @import "{{ site.theme }}";
 
+html { font-size: 80%; // 12px }
+
 body{
   background: #000;
-	font-size: 1em;
-	font-family: verdana, sans-serif;
+  font-size: 1em;
+  font-family: verdana, sans-serif;
   color: #fff;
 }
 

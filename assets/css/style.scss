@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-html { font-size: 80%; } // 12px
+html { font-size: 90%; } // 12px
 
 body{
   background: #000;
@@ -30,14 +30,12 @@ a:hover, a:active, a:focus {
 
 p.title a{
   color: #ccff00;
-  font-size: 2.5em;
-  font-weight: bold;
+  font-size: 3em;
   text-decoration: none;
   font-family: brush script mt, cursive;
 }
 
 p.title a:hover, a:active, a:focus {
-  font-weight: inherit;
   color: #fff;
   text-decoration: none;
 }

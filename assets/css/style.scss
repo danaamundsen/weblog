@@ -64,8 +64,8 @@ section {
 }
 
 .post_thumb {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   margin:0px;
   position: relative;
   padding: 5px;
@@ -75,11 +75,12 @@ section {
 .post_image {
   opacity: 1;
   display: inline-block;
-  border-radius: 10px;
   object-fit: cover;
   object-position: 50% 0%;
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
+  padding: 5px;
+  border: #fff solid 1px;
 }
 
 /* width */

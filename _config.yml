@@ -1,8 +1,8 @@
-title: weblog
+title: weblog  
 # logo: /assets/img/logo.png
 description: thoughts, essays, journal entries, love letters
 paginate: 5
-paginate_path: "/webblog/page:num/"
+paginate_path: "/weblog/page:num/"
 show_downloads: false
 # google_analytics:
 theme: jekyll-theme-minimal

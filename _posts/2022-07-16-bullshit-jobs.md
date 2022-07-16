@@ -6,7 +6,7 @@ tags: ["books"]
 comments: true
 ---
 
-<div class="post_thumb"><img class="post_image" src="http://www.icefairy.net/weblog/myphotos/transition.jpg"></div>
+<div class="post_thumb"><img class="post_image" src="{{ page.image }}"></div>
 
 I left my job this week. I had been there for about a year, and I hated it. It was hard for me to explain *why* I hated this job. It was a respectable position at a recognized institution, with a moderate wage, and provided benefits like healthcare and a 401k. But it involved a long commute and days spent mostly doing nothing. I didn't have enough work, I was isolated from my coworkers, and I had no relationship or support from my manager. I would leave home at 7 am and return at 6 pm feeling exhausted and depressed from doing... well, nothing. The contents of the job itself, when I was doing them, were just okay.
 

@@ -6,30 +6,30 @@
 html { font-size: 80%; } // 12px
 
 body{
-  background: #000;
+  background: #330033;
   font-size: 1em;
   font-family: verdana, sans-serif;
-  color: #ddd;
+  color: #ffccff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #9933ff;
+  color: #ff6699;
   font-family: lucida console, monospace;
 }
 
 a {
-  color:#fff;
+  color:#cc99cc;
   text-decoration: underline;
 }
 
 a:hover, a:active, a:focus {
   font-weight: inherit;
-  color: #9933ff;
+  color: #ccff00;
   text-decoration: none;
 }
 
 p.title a{
-  color: #9933ff;
+  color: #ff6699;
   font-size: 2.5em;
   font-weight: bold;
   text-decoration: none;
@@ -38,7 +38,7 @@ p.title a{
 
 p.title a:hover, a:active, a:focus {
   font-weight: inherit;
-  color: #fff;
+  color: #ccff00;
   text-decoration: underline;
 }
 
@@ -77,13 +77,13 @@ section {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #9933ff;
+  background: #ffccff;
   border-radius: 3px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ddd;
+  background: #ccff00;
 }
 
 @media print, screen and (max-width: 960px) {

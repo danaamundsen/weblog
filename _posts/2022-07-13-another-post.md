@@ -5,7 +5,7 @@ tags: ["untagged"]
 comments: true
 ---
 
-![a table at a korean restaurant in warm tones](http://www.icefairy.net/weblog/myphotos/transition.jpg)
+<div class="post_thumb"><img class="post_image" src="http://www.icefairy.net/weblog/myphotos/transition.jpg"></div>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse potenti nullam ac tortor vitae. Dictumst vestibulum rhoncus est pellentesque elit. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Egestas congue quisque egestas diam in arcu cursus. Viverra accumsan in nisl nisi scelerisque. Enim sit amet venenatis urna cursus eget nunc. Eu non diam phasellus vestibulum lorem sed. Risus viverra adipiscing at in tellus. Habitasse platea dictumst vestibulum rhoncus est pellentesque. Quam id leo in vitae turpis massa sed elementum tempus.
 

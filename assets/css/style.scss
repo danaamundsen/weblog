@@ -8,13 +8,13 @@ html { font-size: 80%; } // 12px
 body{
   background: #000;
   font-size: 1em;
-  font-family: verdana, sans-serif;
+  font-family: garamond, serif;
   color: #ffccff;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #ff6699;
-  font-family: lucida console, monospace;
+  font-family: courier new, monospace;
 }
 
 a {
@@ -33,7 +33,7 @@ p.title a{
   font-size: 2.5em;
   font-weight: bold;
   text-decoration: none;
-  font-family: lucida console, monospace;
+  font-family: brush script mt, cursive;
 }
 
 p.title a:hover, a:active, a:focus {
